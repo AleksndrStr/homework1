@@ -112,7 +112,7 @@ a {
 .games__box {
   display: flex;
   flex-direction: column;
-  gap: 21px;
+  gap: 16px;
 }
 .games__game-card {
   display: flex;
