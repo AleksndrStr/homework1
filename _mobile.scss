@@ -7,9 +7,9 @@
     }
 
     .top {
-        background-image: url(images/Star-mob.png);
-        background-repeat: no-repeat;
-        background-position: -50% 700%;
+        background-image: url(images/stars-mob1.png), url(images/stars-mob2.png), url(images/stars-mob3.png);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: 220px -90px, 37px 64px, 272px 590px;
     }
 
     .header {
@@ -56,7 +56,7 @@
             font-size: 40px;
             line-height: 49px;
             text-align: left;
-            padding-bottom: 48px;
+            padding-bottom: 32px;
         }
 
         &__tagline {
@@ -70,6 +70,10 @@
 
         &__number {
             display: none;
+        }
+
+        &__name {
+            margin-bottom: 16px;
         }
 
         &__descr {
@@ -103,7 +107,7 @@
             line-height: 140%;
             transition: 1s;
         }
-    
+
         &__button:hover {
             background-color: #ffff;
             color: rgb(32, 32, 39);
@@ -111,6 +115,17 @@
 
     }
 
+    .footer {
+        width: 375px;
+        height: 100px;
+
+        &__text {
+            font-size: 16px;
+            font-weight: 600;
+            padding-top: 40px;
+        }
+
+    }
 
 
 

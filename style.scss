@@ -1,7 +1,9 @@
+@import'vars';
+
 * {
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;
 }
 
 body {
@@ -84,7 +86,7 @@ a {
 }
 
 .games {
-    height: 1470px;    
+    height: 1470px;
     padding-top: 94px;
     padding-bottom: 50px;
     background: rgb(32, 32, 39);
@@ -99,7 +101,7 @@ a {
         line-height: 78px;
     }
 
-    &__title-mob{
+    &__title-mob {
         display: none;
     }
 
@@ -112,13 +114,13 @@ a {
         line-height: 32px;
     }
 
-    &__cards{
+    &__cards {
         display: flex;
         gap: 32px;
         flex-wrap: wrap;
     }
 
-    &__box{
+    &__box {
         display: flex;
         flex-direction: column;
         gap: 16px;
@@ -136,7 +138,7 @@ a {
         transition: 1s;
     }
 
-    &__game-card:hover{
+    &__game-card:hover {
         transform: scale(1.1);
     }
 
@@ -162,17 +164,33 @@ a {
         font-weight: 700;
         line-height: 39px;
         margin: 16px 32px 36px 32px;
-        
+
     }
 
-    &__descr{
-        display: none;
-    }
-    
-    &__button{
+    &__descr {
         display: none;
     }
 
+    &__button {
+        display: none;
+    }
 }
+
+.footer {
+    width: 1441px;
+    height: 150px;
+    background-color: rgb(189, 237, 53);
+
+    &__text {
+        color: rgb(0, 0, 0);
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 61px;
+        padding-bottom: 16px;
+
+    }
+}
+
 
 @import'mobile'

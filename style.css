@@ -157,15 +157,29 @@ a {
   display: none;
 }
 
+.footer {
+  width: 1441px;
+  height: 150px;
+  background-color: rgb(189, 237, 53);
+}
+.footer__text {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 61px;
+  padding-bottom: 16px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
   }
   .top {
-    background-image: url(images/Star-mob.png);
-    background-repeat: no-repeat;
-    background-position: -50% 700%;
+    background-image: url(images/stars-mob1.png), url(images/stars-mob2.png), url(images/stars-mob3.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 220px -90px, 37px 64px, 272px 590px;
   }
   .header {
     padding-top: 147px;
@@ -204,7 +218,7 @@ a {
     font-size: 40px;
     line-height: 49px;
     text-align: left;
-    padding-bottom: 48px;
+    padding-bottom: 32px;
   }
   .games__tagline {
     display: none;
@@ -214,6 +228,9 @@ a {
   }
   .games__number {
     display: none;
+  }
+  .games__name {
+    margin-bottom: 16px;
   }
   .games__descr {
     display: block;
@@ -248,5 +265,14 @@ a {
   .games__button:hover {
     background-color: white;
     color: rgb(32, 32, 39);
+  }
+  .footer {
+    width: 375px;
+    height: 100px;
+  }
+  .footer__text {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 40px;
   }
 }/*# sourceMappingURL=style.css.map */
