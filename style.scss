@@ -86,9 +86,7 @@ a {
 }
 
 .games {
-    height: 1470px;
     padding-top: 94px;
-    padding-bottom: 50px;
     background: rgb(32, 32, 39);
     background-image: url(images/bgr-stars-all-blck.png);
     background-repeat: no-repeat;
@@ -101,9 +99,6 @@ a {
         line-height: 78px;
     }
 
-    &__title-mob {
-        display: none;
-    }
 
     &__tagline {
         margin-top: 24px;
@@ -118,6 +113,7 @@ a {
         display: flex;
         gap: 32px;
         flex-wrap: wrap;
+        padding-bottom: 50px;
     }
 
     &__box {
@@ -164,15 +160,86 @@ a {
         font-weight: 700;
         line-height: 39px;
         margin: 16px 32px 36px 32px;
+    }
+}
 
+
+.mini-games {
+    padding-top: 46px;
+    padding-bottom: 144px;
+    background: rgb(32, 32, 39);
+    background-image: url(images/stars-mini-box-games1.png), url(images/stars-mini-box-games2.png);
+    background-position: 1340px 80px, 1249px 3366px;
+    background-repeat: no-repeat;
+
+    &__title {
+        color: rgb(255, 255, 255);
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        padding-bottom: 56px;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__game-card {
+        // width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 30px;
+        background-color: #fff;
+    }
+
+    &__pic {
+        height: 100%;
+    }
+
+    &__menu {
+        margin: 48px;
+        width: calc(600px - 96px);
+    }
+
+    &__name {
+        color: rgb(32, 32, 39);
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        padding-bottom: 24px;
     }
 
     &__descr {
-        display: none;
+        color: rgb(32, 32, 39);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        padding-bottom: 36px;
+        max-width: 410px;
     }
 
     &__button {
-        display: none;
+        width: 247px;
+        height: 66px;
+        box-sizing: border-box;
+        border: 1px solid rgb(32, 32, 39);
+        border-radius: 60px;
+        background: rgb(32, 32, 39);
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 141.69%;
+        transition: 1s;
+    }
+
+    &__button:hover {
+        background-color: #ffff;
+        color: rgb(32, 32, 39);
     }
 }
 
@@ -188,7 +255,6 @@ a {
         text-align: center;
         padding-top: 61px;
         padding-bottom: 16px;
-
     }
 }
 
