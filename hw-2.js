@@ -37,8 +37,8 @@
 //     "isAdmin": true
 //  };
 
-//  let name = prompt ("Привет, ИМЯ");
-//  alert (name);
+ let name = prompt ("Как вас зовут?");
+ alert (`Привет, ${name}`) ;
 
 // // Дополнительное задание:
 
